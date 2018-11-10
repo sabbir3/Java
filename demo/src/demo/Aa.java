@@ -1,0 +1,15 @@
+package demo;
+import java.util.Scanner;
+
+public class Aa {
+		public static void main(String[] args){
+			
+			int a,b,c;
+			Scanner input=new Scanner(System.in);
+			a=input.nextInt();
+			b=input.nextInt();
+			c=a+b;
+			System.out.println(c);
+		}
+}
+
